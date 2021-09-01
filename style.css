@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+padding: 0;
+}
+
+.mid_containt{
+    width: 1200px;
+    margin: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+/*  HEADER section  */
+header{
+    background-image: url(img/ia_200000019.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom center;
+ 
+    background-color: rgba(0,0,0,.7);
+    padding: 200px 0px;
+}
+.header-section{ }
+.menu_section{
+    background-color: rgba(0,0,0,.7);
+  
+}
+.header_logo{
+    width: 40%;
+
+}
+.header_logo img{
+
+}
+.menu{
+    width: 70%;
+}
+.menu ul{ display: inline-block;
+text-align: right;}
+.menu ul li{ 
+    line-height: 10px;
+    display: inline-block;}
+.menu ul li a{
+    display: inline-block;
+    padding: 5px 15px ;
+    color: #ffff;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #c69453;
+    
+}
+/*  service_section  css */
+
+.service_section{
+
+}
